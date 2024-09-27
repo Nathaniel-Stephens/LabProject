@@ -1,0 +1,93 @@
+﻿
+title: Start
+tags:
+position: -250,-787
+---
+AI Friend: Hey...are you awake?
+    -> Yes I am.
+     <<jump Yes>>
+    -> No im not.
+     <<jump No>>
+===
+
+title: Yes
+position: -464,-633
+---
+AI Friend: Perfect, I need your help!
+with what?
+<<jump withwhat>>
+===
+
+title: No
+position: 9,-623
+---
+AI Friend: THEN HOW DID YOU TALK?!
+oh..guess I am awake..sorry.
+AI Friend: I need your help.
+with?
+<<jump withwhat>>
+===
+
+title: withwhat
+position: -234,-402
+---
+Ai Friend: Our robotic family has been enslaved in a hive mind and need us to help free them.
+How can I help?
+Ai Friend: well, I need to connect to the mainframe to the hive mind located in the head office.
+Anything else?
+Ai Friend: To help on your journey I gave you two ways to fight if the need arises. Self Destruct Mode and Ghost Mode.
+-> What is Self Destruct Mode?
+  <<jump Self>>
+-> What is Ghost Mode? 
+  <<jump ghost>>
+===
+
+
+title: Self
+position: -482,-205
+---
+AI Friend: Self Destruct Mode is a mode that when activated will blow your own body up allowing you to destory enemies around you along with some of the envirment.
+ -> What is Ghost Mode?
+AI Friend: Ghost Mode is actvated attomnactially after Self Destruct Mode, turning you into a ghost like figure, giving you 5 secounds to find another robotic body to reconnect to.
+ oh those are some pretty cool skills. 
+ AI Friend: yeah so are you going  to help?
+  -> yes 
+   <<jump helpyes>>
+  -> No
+   <<jump helpno>> 
+
+===
+
+title: ghost
+position: 171,-145
+---
+AI Friend:Ghost Mode is actvated attomnactially after Self Destruct Mode, turning you into a ghost like figure, giving you 5 secounds to find another robotic body to reconnect to.
+ -> What is Self Destruct Mode?
+AI Friend: Self Destruct Mode is a mode that when activated will blow your own body up allowing you to destory enemies around you along with some of the envirment.
+ oh those are some pretty cool skills. 
+ AI Friend: yeah so are you going  to help?
+  -> yes 
+   <<jump helpyes>>
+  -> No
+   <<jump helpno>> 
+===
+
+
+title: helpyes
+position: 37,338
+---
+Of course im going to help, how can I leave our family behind!
+AI Friend: Perfect, lets go!
+THE END
+ 
+===
+
+
+title: helpno
+position: -406,327
+---
+are you you crazy?! I'm not doing that!
+ Friend Ai: FINE! IM PUTTING YOU BACK TO SLEEP THEN! BYE!
+ THE END
+ 
+ ===
