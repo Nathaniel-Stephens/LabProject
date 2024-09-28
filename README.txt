@@ -9,4 +9,9 @@ CITATIONS:
 
 I used the GDD for idea concept.
 ALL dialog written by myself.
+youtube video from professor Jose. 
+
+
+YOTUUBE LINK FOR VIDEO: 
+https://youtu.be/r3tXKLVsd4w
  
